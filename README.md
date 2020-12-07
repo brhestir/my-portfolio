@@ -1,1 +1,17 @@
 # my-portfolio
+
+## Description
+A place to share projects.
+
+## Installation
+- [Clone this repo](https://github.com/brhestir/horiseon.git)
+- Push to GitHub
+- Serve main branch via GitHub Pages.
+
+## Usage
+View the site at [my-portfolio](https://brhestir.github.io/my-portfolio/)
+
+## Credits
+
+## Licence
+MIT
