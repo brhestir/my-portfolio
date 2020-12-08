@@ -9,11 +9,27 @@
 
 .navbar-light .navbar-brand {
     color: white;
-    background-color: var(--seafoam-green)
+    background-color: var(--seafoam-green);
+    margin-left: 1.5%;
 }
 
 .bg-theme-white {
     background-color: rgb(247, 248, 249);
+}
+
+#container-background {
+    background: url(../images/ignasi_pattern_s.png);
+}
+
+#card-aboutme {
+    width: 100%;
+    margin-top: 10%;
+    margin-bottom: 5%;
+    margin-left: 2.5%
+}
+
+#card-aboutme h1 {
+    color: var(--seafoam-green);
 }
 /* (385,    62)
  * (1402,   951)
