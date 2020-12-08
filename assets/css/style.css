@@ -21,17 +21,17 @@
     background: url(../images/ignasi_pattern_s.png);
 }
 
-#card-aboutme {
+#card-content-box {
     width: 100%;
     margin-top: 10%;
     margin-bottom: 5%;
     margin-left: 2.5%
 }
 
-#card-aboutme h1 {
+#card-content-box h1 {
     color: var(--seafoam-green);
 }
 
-#card-aboutme img {
+#card-content-box img {
     max-width: 33%;
 }
