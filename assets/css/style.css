@@ -6,6 +6,15 @@
 .container-bkgd {
     background-color: var(--seafoam-green);
 }
+
+.navbar-light .navbar-brand {
+    color: white;
+    background-color: var(--seafoam-green)
+}
+
+.bg-theme-white {
+    background-color: rgb(247, 248, 249);
+}
 /* (385,    62)
  * (1402,   951)
  *
