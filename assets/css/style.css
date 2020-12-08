@@ -11,18 +11,27 @@ body {
     background-color: var(--seafoam-green);
 }
 
+#container-background {
+    background: url(../images/ignasi_pattern_s.png);
+}
+
 .navbar-light .navbar-brand {
     color: white;
     background-color: var(--seafoam-green);
     margin-left: 1.5%;
+    font-family: 'Libre Baskerville', serif;
 }
 
 .bg-theme-white {
     background-color: rgb(247, 248, 249);
 }
 
-#container-background {
-    background: url(../images/ignasi_pattern_s.png);
+.btn-theme-greenwhite {
+    color: white;
+    background-color: var(--seafoam-green);
+    border-color: var(--seafoam-green);
+    border-radius: 0px;
+    font-family: 'Libre Baskerville', serif;
 }
 
 #card-content-box {
@@ -31,11 +40,11 @@ body {
     margin-left: 2.5%;
     margin-bottom: 5%;
     margin-right: 2.5%
-    
 }
 
 #card-content-box h1 {
     color: var(--seafoam-green);
+    font-family: 'Libre Baskerville', serif;
 }
 
 #card-content-box img {
@@ -52,3 +61,4 @@ body {
 .nav-link {
     float: right;
 }
+
