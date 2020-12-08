@@ -31,13 +31,7 @@
 #card-aboutme h1 {
     color: var(--seafoam-green);
 }
-/* (385,    62)
- * (1402,   951)
- *
- * --------------
- *   x: 1017
- *   y:  889
- *
- *   image-width:  1984   
- *  image-height: 1572
- */
+
+#card-aboutme img {
+    max-width: 33%;
+}
