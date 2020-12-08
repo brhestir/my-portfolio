@@ -47,6 +47,7 @@ body {
 #card-content-box h1 {
     color: var(--seafoam-green);
     font-family: 'Libre Baskerville', serif;
+    margin-bottom: 0%;
 }
 
 .nav-link {
