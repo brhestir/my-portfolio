@@ -49,10 +49,6 @@ body {
     font-family: 'Libre Baskerville', serif;
 }
 
-#card-content-box img {
-    max-width: 33%;
-}
-
 #card-content-box img.dim-350-350 {
     width: 350px;
     height: 100%;
