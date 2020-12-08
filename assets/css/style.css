@@ -3,6 +3,10 @@
     --seafoam-green: rgb(74, 170, 165);
 }
 
+body {
+    overflow: scroll; /* Always show scrollbars */
+}
+
 .container-bkgd {
     background-color: var(--seafoam-green);
 }
