@@ -28,8 +28,10 @@ body {
 #card-content-box {
     width: 100%;
     margin-top: 10%;
+    margin-left: 2.5%;
     margin-bottom: 5%;
-    margin-left: 2.5%
+    margin-right: 2.5%
+    
 }
 
 #card-content-box h1 {
