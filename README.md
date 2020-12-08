@@ -12,6 +12,7 @@ A place to share projects.
 View the site at [my-portfolio](https://brhestir.github.io/my-portfolio/)
 
 ## Credits
+- [Image Placeholder Website](https://placeholder.com/)
 
 ## Licence
 MIT
