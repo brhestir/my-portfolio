@@ -4,7 +4,7 @@
 A place to share projects.
 
 ## Installation
-- [Clone this repo](https://github.com/brhestir/horiseon.git)
+- [Clone this repo](https://github.com/brhestir/my-portfolio.git)
 - Push to GitHub
 - Serve main branch via GitHub Pages.
 
