@@ -49,14 +49,42 @@ body {
     font-family: 'Libre Baskerville', serif;
 }
 
-#card-content-box img.dim-350-350 {
-    width: 350px;
-    height: 100%;
-    max-width: 44%;
-    max-height: 44%;
-}
-
 .nav-link {
     float: right;
 }
 
+@media screen and (min-width: 992px){
+    #card-content-box img {
+        width: 47%;
+        /* height: 100%; */
+        max-width: 47%;
+        max-height: 47%;
+    }
+}
+
+@media screen and (max-width: 991px){
+    #card-content-box img {
+        width: 90%;
+        /* height: 100%; */
+        max-width: 100%;
+        max-height: 100%;
+    }
+}
+
+@media screen and (max-width: 768px){
+    #card-content-box img {
+        width: 90%;
+        /* height: 100%; */
+        max-width: 100%;
+        max-height: 100%;
+    }
+}
+
+@media screen and (max-width: 575px){
+    #card-content-box img {
+        width: 100%;
+        /* height: 100%; */
+        max-width: 100%;
+        max-height: 100%;
+    }
+}
