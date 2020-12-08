@@ -1,0 +1,16 @@
+/* This is a global variable attached to the root element */
+:root {
+    --seafoam-green: rgb(74, 170, 165);
+}
+
+.container-bkgd
+/* (385,    62)
+ * (1402,   951)
+
+ --------------
+    x: 1017
+    y:  889
+
+image-width:  1984   
+image-height: 1572
+
