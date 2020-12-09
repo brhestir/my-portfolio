@@ -1,48 +1,51 @@
-/* This is a global variable attached to the root element */
+/* global variable attached to root element */
 :root {
     --seafoam-green: rgb(74, 170, 165);
     --footer-verydarkgrey: rgb(102, 102, 102);
     --footer-text-darkgrey: rgb(108, 117, 125);
 }
 
-
 html{
-    position: relative; /* For sticky footer */
-    min-height: 100%    /* For sticky footer */
+    position: relative;     /* sticky footer */
+    min-height: 100%        /* sticky footer */
 }
 
 html,
 body {
     height: 100%;           /* Bkgd-img fill vert */
-    margin-bottom: 65px;    /* For sticky footer */
+    margin-bottom: 65px;    /* sticky footer */
 }
 
 body {
-    overflow: scroll; /* Always show scrollbars */
-    margin-bottom: 65px;  /* For sticky footer by footer height */
+    overflow: scroll;       /* Always show scrollbars */
+    margin-bottom: 65px;    /* sticky footer by footer height */
 }
 
+/* Footer link text styling and vert. pos. datum */
 .footer a, span{
     position: sticky;
     color: var(--footer-text-darkgrey);
     text-decoration: none;
 }
 
+/* Footer link state styling */
 .footer a:hover {
     color: white;
 }
 
+/* Footer container class */
 .footer {
     position: sticky;
-    bottom: 0;
+    bottom: 0;                 /* footer vertical pos. datum */
     width: 100%;
-    height: 65px; /* Set the fixed height of the footer here */
-    line-height: 60px; /* Vertically center the text there */
+    height: 65px;               /* footer height */
+    line-height: 60px;          /* Center text vertically */
     background-color: var(--footer-verydarkgrey);
     color: var(--footer-text-darkgrey);
     text-align: center;
 }
 
+/* Derived footer container class */
 .container {
     position: sticky;
     bottom: 0;
@@ -51,30 +54,28 @@ body {
     padding: 0 15px;
 }
 
+/* Derived footer container class */
 .container.footer-top {
     position: sticky;
-    bottom: 100px;
     width: 100%;
-    height: 5px; /* Set the fixed height of the footer here */
+    height: 5px;
     background-color: var(--seafoam-green);
 }
 
+/* Derived footer container class */
 .container.footer-bottom {
     position: sticky;
-    bottom: 0;
     width: 100%;
-    height: 60px; /* Set the fixed height of the footer here */
+    height: 60px;
     background-color: var(--footer-verydarkgrey);
 }
 
-.container-bkgd {
-    background-color: var(--seafoam-green);
-}
-
+/* Container hosting background image */
 #container-background {
     background: url(../images/ignasi_pattern_s.png);
 }
 
+/* Navbar root link styling */
 .navbar-light .navbar-brand {
     color: white;
     background-color: var(--seafoam-green);
@@ -82,14 +83,17 @@ body {
     text-decoration: none;
 }
 
+/* Navbar root link styling */
 .navbar-brand:hover {
     color: darkgray;
 }
 
+/* Navbar background-color theme styling */
 .bg-theme-white {
     background-color: rgb(247, 248, 249);
 }
 
+/* Form button theme styling */
 .btn-theme-greenwhite {
     color: white;
     background-color: var(--seafoam-green);
@@ -99,12 +103,14 @@ body {
     font-size: 16px;
 }
 
+/* Body content container */
 #card-content-box {
     width: 100%;
     margin-top: 10%;
     margin-bottom: 5%;
 }
 
+/* Body content container element */
 #card-content-box h1 {
     color: var(--seafoam-green);
     font-family: 'Libre Baskerville', serif;
@@ -115,10 +121,10 @@ body {
     float: right;
 }
 
+/* Media queries for layout specification */
 @media screen and (min-width: 992px){
     #card-content-box img {
         width: 47%;
-        /* height: 100%; */
         max-width: 47%;
         max-height: 47%;
     }
@@ -127,7 +133,6 @@ body {
 @media screen and (max-width: 991px){
     #card-content-box img {
         width: 90%;
-        /* height: 100%; */
         max-width: 100%;
         max-height: 100%;
     }
@@ -136,7 +141,6 @@ body {
 @media screen and (max-width: 768px){
     #card-content-box img {
         width: 90%;
-        /* height: 100%; */
         max-width: 100%;
         max-height: 100%;
     }
@@ -145,7 +149,6 @@ body {
 @media screen and (max-width: 575px){
     #card-content-box img {
         width: 100%;
-        /* height: 100%; */
         max-width: 100%;
         max-height: 100%;
     }
