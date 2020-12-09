@@ -1,7 +1,7 @@
 # my-portfolio
 
 ## Description
-A place to share projects.
+A site to share progress and projects developed while attending the Georgia Tech Full-Stack Coding Bootcamp.
 
 ## Installation
 - [Clone this repo](https://github.com/brhestir/my-portfolio.git)
@@ -11,8 +11,10 @@ A place to share projects.
 ## Usage
 View the site at [my-portfolio](https://brhestir.github.io/my-portfolio/)
 
+![Preview of my-portfolio main page](assets/images/my-portfolio.png)
+
 ## Credits
-- [Image Placeholder Website](https://placeholder.com/)
+- [placeholder.com](https://placeholder.com/)
 
 ## Licence
 MIT
