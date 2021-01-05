@@ -95,6 +95,11 @@ body {
     color: darkgray;
 }
 
+nav .navbar-nav li a {
+    color: white !important;
+    font-family: 'Quicksand', serif;
+}
+
 /* Navbar background-color theme styling */
 .bg-theme-white {
     background-color: var(--navbar-color);
