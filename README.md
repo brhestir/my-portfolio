@@ -14,7 +14,7 @@ View the site at [my-portfolio](https://brhestir.github.io/my-portfolio/)
 ![Preview of my-portfolio main page](assets/images/my-portfolio.png)
 
 ## Credits
-- [placeholder.com](https://placeholder.com/)
+- [Rakicevic Nenad, Pexels Photo](https://www.pexels.com/@rakicevic-nenad-233369)
 
 ## Licence
 MIT
