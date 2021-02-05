@@ -1,7 +1,7 @@
 # my-portfolio
 
 ## Description
-A site to share progress and projects developed while attending the Georgia Tech Full-Stack Coding Bootcamp.
+A site to showcase things learned while working with bright people while attending a Full-Stack Coding Bootcamp at Georgia Tech.
 
 ## Installation
 - [Clone this repo](https://github.com/brhestir/my-portfolio.git)
